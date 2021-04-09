@@ -1,0 +1,17 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    margin: auto;
+    display: inline-block;
+    background-color: beige;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+#output{
+    font-weight: bold;
+    color: red;
+    font-size: 5rem;
+}
