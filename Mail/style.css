@@ -12,6 +12,11 @@ main{
 }
 #output{
     font-weight: bold;
-    color: red;
     font-size: 5rem;
+}
+#no{
+    color: red;
+}
+#yes{
+    color: rgb(0, 255, 42);
 }
