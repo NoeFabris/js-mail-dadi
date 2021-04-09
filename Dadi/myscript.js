@@ -4,10 +4,12 @@ var num2 = (Math.floor(Math.random() * 6) + 1)
 
 console.log(num1)
 console.log(num2)
-
-
-if (num1 > num2) {
-    document.getElementById("output").innerHTML = "Umano Vince"
+if (num1 === num2) {
+    document.getElementById("output").innerHTML = "Pareggio"
 } else {
-    document.getElementById("output").innerHTML = "Computer Vince"
+    if (num1 > num2) {
+        document.getElementById("output").innerHTML = "Umano Vince"
+    } else {
+        document.getElementById("output").innerHTML = "Computer Vince"
+    }
 }
